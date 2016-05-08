@@ -1,12 +1,8 @@
-
 import urllib
 import re
 from BeautifulSoup import *
 import xml.etree.ElementTree as ET
 
-#url = raw_input('Enter website: ')
-#count = int(raw_input('Enter counts: '))
-#index = int(raw_input('Enter index of name: '))
 url = "https://tw.dictionary.yahoo.com/dictionary?p="
 inputs = raw_input("what's the word you are looking for?")
 
@@ -34,15 +30,3 @@ for i in translation_lists:
 		word_class += 1
 	print "    ",i
 
-'''
-
-##### find and print all translation with no number prefix
-for i in lists:
-	hex_list = re.findall(r'[\x80-\xff]+',i)     
-	#print hex_list
-	#for j in hex_list:
-	for j in range(len(hex_list)):
-		#print hex_list[j],"\xef\xbc\x88"
-		if hex_list[j] != "\xef\xbc\x88" and hex_list[j]!='\xef\xbc\x89':
-			print hex_list[j]
-'''
