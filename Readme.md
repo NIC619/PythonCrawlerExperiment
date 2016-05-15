@@ -3,4 +3,4 @@
 Further work including more website sources and presenting
 with top 5 most dominant results.</p>
 
-## v1.0 simple lookup on Yahoo dictionary
+## v0.1 simple lookup on Yahoo dictionary

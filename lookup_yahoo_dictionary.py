@@ -1,7 +1,6 @@
 import urllib
 import re
 from BeautifulSoup import *
-import xml.etree.ElementTree as ET
 
 url = "https://tw.dictionary.yahoo.com/dictionary?p="
 inputs = raw_input("what's the word you are looking for?")
